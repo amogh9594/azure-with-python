@@ -1,6 +1,6 @@
 # Azure With Python
 
-## 1.Azure Form Recognizer 
+## 1. Azure Form Recognizer 
 Azure Cognitive Services Form Recognizer is a cloud service that uses machine learning to recognize text and table data from form documents. 
 * Custom models - Recognize field values and table data from forms. These models are trained with your own data, so they're tailored to your forms.
 * Content API - Recognize text, table structures, and selection marks, along with their bounding box coordinates, from documents. Corresponds to the REST service's   
