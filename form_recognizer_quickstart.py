@@ -6,8 +6,8 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, _
 
 context = {}
 # set `<your-endpoint>` and `<your-key>` variables with the values from the Azure portal
-endpoint = "https://radhaform.cognitiveservices.azure.com/"
-key = "59985468f44946dfbd26e91308ddd139"
+endpoint = "xxxxxxxxxxxxxxx"
+key = "xxxxxxxxxxxxxxxxxxxx"
 
 def format_bounding_region(bounding_regions):
     if not bounding_regions:
@@ -22,7 +22,7 @@ def format_bounding_box(bounding_box):
 
 def analyze_general_documents():
     # sample document
-    docUrl = "https://saraformrecognizer.blob.core.windows.net/invoice/DATA SOFT.pdf"
+    docUrl = "https://xxxxxxxxx/xxxxxxx/DATA SOFT.pdf"
 
     # create your `DocumentAnalysisClient` instance and `AzureKeyCredential` variable
     document_analysis_client = DocumentAnalysisClient(endpoint=endpoint, credential=AzureKeyCredential(key))
