@@ -23,3 +23,7 @@ pip install azure-storage-blob
 
 ## Authenticate the client
 In order to interact with the Form Recognizer service, you will need to create an instance of a client. An endpoint and credential are necessary to instantiate the client object.
+
+## Form Recognizer Sample Labeling Tool
+[click here](https://fott-2-1.azurewebsites.net/)
+
