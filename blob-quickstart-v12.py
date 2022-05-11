@@ -7,9 +7,9 @@ def load_config():
     with open(dir_root + '/config.yaml',"r") as yamlfile:
         return yaml.load(yamlfile,Loader=yaml.FullLoader)
 '''
-azure_storage_connectionstring = "DefaultEndpointsProtocol=https;AccountName=invoicedocument;AccountKey=f+k1Txhfm39DPTiVJvVUtZN0ROPsrX+IFbcuv7gk1z4s5ay9+Ga3iszz7C5ltg61S1fiSn/qRLEp7+hLc7gOZw==;EndpointSuffix=core.windows.net"
-file_container_name = "testinvoice"
-source_folder = "/home/openbravo/Downloads/dashboard/blob-quickstart-v12"
+azure_storage_connectionstring = "xxxxxxxxxxxxxxxx"
+file_container_name = "xxxxxxxxx"
+source_folder = "xxxxxxxxxxxxxx"
 
 def get_files(dir):
     with os.scandir(dir) as entries:
