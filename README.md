@@ -26,3 +26,4 @@ In order to interact with the Form Recognizer service, you will need to create a
 
 ## Azure blob storage 
 Azure Blob storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data. 
+[Upload files to blob storage](https://github.com/amogh9594/azure-with-python/blob/main/blob-quickstart-v12.py)
